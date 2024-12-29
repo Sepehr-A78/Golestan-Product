@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .show-me-menu{
+        display: none;
+
+    }
+    .show-me-menu-select{
+
+    }
+
+    .show-me-menu-select:hover .show-me-menu{
+        display: block;
+    }
+
+    .show-me-icon-select{
+
+    }
+
+    .show-me-icon-select:hover{
+        cursor: pointer;
+
+    }
+
+    .show-me-icon{
+        display: none;
+    }
+
+    .hide-me-icon{
+        display: inline-block;
+    }
+
+    .show-me-icon-select:hover .show-me-icon{
+        display: inline-block;
+    }
+
+    .show-me-icon-select:hover .hide-me-icon{
+        display: none;
+    }
+
+  }
+
